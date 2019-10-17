@@ -17,9 +17,9 @@ namespace GetSquare
 
 		}
 
-		private static int getSqr(int toSqr)
+		private static float getSqr(int toSqr)
 		{
-			return (int)Math.Round(Math.Sqrt(toSqr), 2);
+			return Math.Round(Math.Sqrt(toSqr), 2);
 		}
 	}
 }
